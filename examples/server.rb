@@ -12,6 +12,7 @@ class Test
 end
 
 server = Polytalk::Server.new({ port: 9090 })
+puts "Ruby Server running on port 9090. PID=#{Process.pid}"
 server.run do |connection, request|
   response = server.call(request)
   server.push(connection, response)
