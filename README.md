@@ -12,7 +12,7 @@ Key          | Value
 ------------ | ------------- 
 class        | The class to call the method on. Namespaced classes require the `::` separator.
 method       | The method you want to call.
-arguments    | The arguments to inject into the method in key value pairs.
+arguments    | The arguments to inject into the method in key value pairs. Use `:argument` for ruby symbols.
 
 ## Installation
 
